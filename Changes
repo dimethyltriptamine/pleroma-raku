@@ -2,5 +2,8 @@ Revision history for Pleroma
 
 {{$NEXT}}
 
+0.1.1  2022-01-16T18:12:37+01:00
+    - Fixes for zef
+
 0.1  2022-01-16T17:43:25+01:00
     - Initial version

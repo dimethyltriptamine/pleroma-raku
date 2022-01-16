@@ -2,6 +2,9 @@ Revision history for Pleroma
 
 {{$NEXT}}
 
+0.1.2  2022-01-16T18:23:35+01:00
+    - Added function to get posts from timeline
+
 0.1.1  2022-01-16T18:12:37+01:00
     - Fixes for zef
 

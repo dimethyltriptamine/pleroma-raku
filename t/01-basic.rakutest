@@ -11,5 +11,5 @@ my $pl = Pleroma::Pleroma.new("https://pl.qorg11.net",
 
 isnt $pl.post("hello","direct"), False, "Posting a status.";
 isnt $pl.search("statuses","cofe",1), False, "Making a search.";
-								    
+isnt $pl.get_posts("public"), False, "Fetching posts from timeline";								    
 done-testing;

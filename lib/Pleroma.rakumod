@@ -82,6 +82,16 @@ class Pleroma {
 		}		
 	}
 
+	method get_posts(Str $timeline) {
+		my $url = "$!instance/api/v1/timelines/" ~ $timeline;
+		my $json_str = get($url, Authorization => "Bearer: "~ self.access_token);
+		if $json_str {
+			return from-json($json_str);
+		} else {
+			return False;
+		}
+	}
+
 	# Verifies whether the app works or not
 	
 	method verify() {
@@ -93,3 +103,9 @@ class Pleroma {
 		}
 	}
 }
+
+my $pl = Pleroma.new("https://pl.qorg11.net",
+						"DFmf6sLm6K6wVRMsb4PohQUCtH5Kzim59lXRQV-HH0s",
+						"HvG8iJEB8dlPqWtn84QvMePS2lA7ETc-M_CwTDOWgk0",
+						"GaX9NTVOyR_XSLxiCzuejvnS1f3x5MumRAEsy1UBUrs"
+					    );

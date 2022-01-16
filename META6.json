@@ -1,0 +1,27 @@
+{
+  "auth": "zef:qorg11",
+  "authors": [
+    "qorg11"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "JsonC",
+    "WWW"
+  ],
+  "description": "Interface for Pleroma's API",
+  "license": "NOASSERTION",
+  "name": "Pleroma",
+  "perl": "6.d",
+  "provides": {
+    "Pleroma": "lib/Pleroma.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.1"
+}

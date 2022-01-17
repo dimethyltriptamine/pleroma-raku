@@ -103,9 +103,3 @@ class Pleroma {
 		}
 	}
 }
-
-my $pl = Pleroma.new("https://pl.qorg11.net",
-						"DFmf6sLm6K6wVRMsb4PohQUCtH5Kzim59lXRQV-HH0s",
-						"HvG8iJEB8dlPqWtn84QvMePS2lA7ETc-M_CwTDOWgk0",
-						"GaX9NTVOyR_XSLxiCzuejvnS1f3x5MumRAEsy1UBUrs"
-					    );

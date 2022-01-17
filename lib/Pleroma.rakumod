@@ -1,6 +1,6 @@
 #!/usr/bin/rakudo
 
-use JsonC;
+use JSON::Tiny;
 use WWW;
 
 unit module Pleroma;
